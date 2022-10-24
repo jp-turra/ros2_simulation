@@ -13,7 +13,7 @@ from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 
 package_name = 'simulation'
-urdf_file = 'fuck.urdf'
+urdf_file = 'simple.urdf'
 rviz_config = 'config.rviz'
 
 def generate_launch_description():

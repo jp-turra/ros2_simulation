@@ -14,7 +14,7 @@ from launch_ros.substitutions import FindPackageShare
 
 package_name = 'simulation'
 world_file = 'empty.world'
-urdf_file = 'fuck.urdf'
+urdf_file = 'simple.urdf'
 
 def generate_launch_description():
   pkg_share = FindPackageShare(package=package_name).find(package_name)
